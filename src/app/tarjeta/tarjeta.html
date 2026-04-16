@@ -1,0 +1,11 @@
+<div class="tarjeta-container">
+  <h2>{{ nombre }}</h2>
+  <p>Edad: {{ edad }} años</p>
+
+  <div class="like-section">
+    <button class="btn-like" (click)="darLike()">Like</button>
+    <span class="likes-count">{{ likes }}</span>
+    <button class="btn-dislike" (click)="darDislike()">Dislike</button>
+    <span class="likes-count">{{ dislikes }}</span>
+  </div>
+</div>

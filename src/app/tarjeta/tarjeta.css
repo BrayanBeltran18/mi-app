@@ -1,0 +1,64 @@
+.tarjeta-container {
+  background-color: #0f3d24; /* Dark green */
+  color: #ffffff; /* White */
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 320px;
+  margin: 16px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.tarjeta-container:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta-container h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+.tarjeta-container p {
+  font-size: 1.1rem;
+  color: #d1e8db; /* Light green for contrast */
+}
+
+.like-section {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #0f3d24;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+button.btn-like:hover {
+  background-color: #d1e8db;
+}
+
+button.btn-dislike {
+  color: #7d2626; /* Dark reddish tone to contrast the green */
+}
+
+button.btn-dislike:hover {
+  background-color: #fad2d2; /* Light red/pinkish hover */
+}
+
+.likes-count {
+  font-size: 1.1rem;
+  font-weight: 500;
+}

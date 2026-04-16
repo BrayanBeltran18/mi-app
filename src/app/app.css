@@ -1,0 +1,52 @@
+.crear-tarjeta {
+  background-color: #26633e; /* Medium forest green */
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 320px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crear-tarjeta h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.crear-tarjeta input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #d1e8db;
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.crear-tarjeta button {
+  background-color: #ffffff;
+  color: #0f3d24;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.crear-tarjeta button:hover {
+  background-color: #d1e8db;
+}
+
+.lista-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+}
